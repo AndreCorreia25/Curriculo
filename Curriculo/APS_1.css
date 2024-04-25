@@ -1,0 +1,50 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif; /* Defina uma fonte padrão */
+    background-color: #f4f4f4; /* Adicione uma cor de fundo */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center; /* Centralize o conteúdo no cabeçalho */
+    background-color: #333; /* Adicione uma cor de fundo ao cabeçalho */
+    color: #fff; /* Defina a cor do texto */
+    padding: 20px;
+}
+
+main {
+    max-width: 800px; /* Defina a largura máxima para o conteúdo principal */
+    margin: 0 auto; /* Centralize o conteúdo principal na página */
+    padding: 20px;
+    background-color: #fff; /* Adicione uma cor de fundo ao conteúdo principal */
+    border-radius: 10px; /* Adicione cantos arredondados ao conteúdo principal */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adicione uma sombra suave ao conteúdo principal */
+}
+
+/* Estilos para a foto de perfil */
+.perfil {
+    width: 100px; /* Defina o tamanho desejado para a foto */
+    height: 100px; /* Mantenha a mesma altura e largura para criar um círculo */
+    border-radius: 50%; /* Faça a borda ficar circular */
+    object-fit: cover; /* Evita que a imagem seja distorcida */
+    border: 2px solid #fff; /* Adiciona uma borda branca ao redor do círculo */
+}
+.botao {
+    width: 30px; /* Defina o tamanho do botão */
+    height: 30px; /* Defina o tamanho do botão */
+    background-color: #007bff; /* Cor de fundo do botão */
+    border: none;
+    cursor: pointer;
+    position: relative; /* Permite posicionar a imagem dentro do botão */
+}
+
+/* Estilize a imagem do ícone */
+.botao img {
+    width: 30px; /* Defina o tamanho da imagem */
+    height: 30px; /* Defina o tamanho da imagem */
+    position: absolute; /* Posicione a imagem absolutamente dentro do botão */
+    top: 50%; /* Centralize verticalmente a imagem */
+    left: 50%; /* Centralize horizontalmente a imagem */
+    transform: translate(-50%, -50%); /* Ajuste a imagem para que fique centralizada no botão */
+}
